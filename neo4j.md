@@ -4,7 +4,7 @@
 
 **Neo4j的安装**
 
-下载之前需要确保本机上有java se的sdk。从 [官网](https://neo4j.com/download-center/#community)下载Neo4j社区版，本次下载的是最新版5.1.0版本，下载后直接解压即可。记得添加环境变量`NEO4J_HOME=path`,`path`为Neo4j文件夹路径，再在path中添加`%NEO4J_HOME%\bin`。
+下载之前需要确保本机上有java se的sdk。从 [官网](https://neo4j.com/download-center/#community)下载Neo4j社区版，本次下载的是最新版5.1.0版本，下载后直接解压即可。记得添加环境变量`NEO4J_HOME=pathname`,`pathname`为Neo4j文件夹路径，再在path中添加`%NEO4J_HOME%\bin`。
 文件夹主要有以下几个目录：
 - bin目录：存储Neo4j的可执行程序
 - conf目录：控制Neo4j启动的配置文件
